@@ -5,6 +5,7 @@ public class Prob1075 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int f = sc.nextInt();
+        sc.close();
 
         for(int i=(n/100)*100; i<((n/100)+1)*100; i++){
             if(i%f==0){
@@ -12,6 +13,5 @@ public class Prob1075 {
                 return;
             }
         }
-
     }
 }
