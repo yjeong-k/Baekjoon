@@ -43,6 +43,7 @@ public class Prob1076 {
                     return;
             }
         }
+        sc.close();
 
         double result = (conversion[0]*10+conversion[1])*Math.pow(10, conversion[2]);
         System.out.println((long)result); // cannot use (int) conversion b/c some results exceed the range of int.
