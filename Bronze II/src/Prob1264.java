@@ -16,5 +16,6 @@ public class Prob1264 {
             }
             System.out.println(vowel);
         }
+        sc.close();
     }
 }
